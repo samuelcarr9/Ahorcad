@@ -15,7 +15,7 @@ fun Quitartildes(palabra: String): String {
 fun main() {
     val rm = ReproductorMidi("Reto.mid")
     val mensajeinicial = println("Bienvenido al ahorcado, espera un momento...")
-    Thread.sleep(5500)
+    Thread.sleep(5000)
     val mensajereto = println("Hoy tendrás que adivinar el nombre de un país europeo")
     Thread.sleep(2500)
     val lista: List<String> = listOf(
